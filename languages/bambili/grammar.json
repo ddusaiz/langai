@@ -1,0 +1,56 @@
+{
+  "sentence_structure": {
+    "basic_order": "Subject-Verb-Object",
+    "description": "Sentences usually follow Subject-Verb-Object ordering.",
+    "examples": [
+      {
+        "english": "I eat food",
+        "bambili": "tbd",
+        "breakdown": "I (subject) + eat (verb) + food (object)"
+      }
+    ]
+  },
+  "grammar_rules": [
+    {
+      "rule_id": "adj_position",
+      "title": "Adjective Position",
+      "description": "Adjectives usually follow the noun they modify.",
+      "examples": [
+        {
+          "english": "big house",
+          "bambili": "tbd",
+          "breakdown": "house + big"
+        }
+      ]
+    },
+    {
+      "rule_id": "noun_prefixes",
+      "title": "Noun Prefixes",
+      "description": "Noun prefixes change depending on whether the noun is singular or plural.",
+      "examples": [
+        {
+          "english": "one person / many people",
+          "bambili": "tbd / tbd",
+          "breakdown": "Different prefixes for singular and plural"
+        }
+      ]
+    }
+  ],
+  "tenses": {
+    "present": {
+      "description": "How to form present tense",
+      "pattern": "tbd",
+      "examples": []
+    },
+    "past": {
+      "description": "How to form past tense",
+      "pattern": "tbd",
+      "examples": []
+    },
+    "future": {
+      "description": "How to form future tense",
+      "pattern": "tbd",
+      "examples": []
+    }
+  }
+}

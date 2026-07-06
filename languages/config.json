@@ -1,0 +1,12 @@
+{
+  "supported_languages": [
+    {
+      "code": "bambili",
+      "name": "Bambili",
+      "enabled": true,
+      "folder": "bambili"
+    }
+  ],
+  "default_language": "bambili",
+  "default_source_language": "english"
+}

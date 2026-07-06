@@ -1,0 +1,30 @@
+{
+  "basic_words": {
+    "hello": "ah beh la",
+    "friend": "ee swen",
+    "thank you": "miya",
+    "goodbye": "tbd",
+    "yes": "tbd",
+    "no": "tbd"
+  },
+  "pronouns": {
+    "I": "muh",
+    "you_singular": "ouh",
+    "he_she": "ah",
+    "we": "bier",
+    "you_plural": "tbd",
+    "they": "tbd"
+  },
+  "verbs": {
+    "eat": "tbd",
+    "drink": "tbd",
+    "sleep": "tbd",
+    "walk": "tbd"
+  },
+  "nouns": {
+    "water": "tbd",
+    "food": "tbd",
+    "house": "tbd",
+    "person": "tbd"
+  }
+}
