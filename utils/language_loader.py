@@ -81,7 +81,7 @@ class LanguageLoader:
         
         Args:
             language_code: The language code
-            category: Category in dictionary (e.g., 'basic_words', 'verbs')
+            category: Category in dictionary (e.g., 'basic_words', 'nouns')
             english: English word/phrase
             translation: Translation in target language
             
@@ -109,21 +109,64 @@ class LanguageLoader:
         
         return True
     
+    def save_grammar_entry(self, language_code: str, category: str, 
+                          english: str, translation: str) -> bool:
+        """
+        Add a new grammar entry (pronouns or verbs).
+        
+        Args:
+            language_code: The language code
+            category: Category in grammar (e.g., 'pronouns', 'verbs')
+            english: English word/phrase
+            translation: Translation in target language
+            
+        Returns:
+            True if successful
+        """
+        grammar_path = self.base_path / language_code / "grammar.json"
+        
+        if not grammar_path.exists():
+            return False
+        
+        with open(grammar_path, "r", encoding="utf-8") as f:
+            grammar = json.load(f)
+        
+        # Ensure category exists
+        if category not in grammar:
+            grammar[category] = {}
+        
+        # Add entry
+        grammar[category][english.lower().strip()] = translation.strip()
+        
+        # Save back
+        with open(grammar_path, "w", encoding="utf-8") as f:
+            json.dump(grammar, f, indent=2, ensure_ascii=False)
+        
+        return True
+    
     def get_total_words(self, language_code: str) -> int:
-        """Get total number of words in dictionary."""
+        """Get total number of words in dictionary and grammar."""
         data = self.load_language_data(language_code)
         dictionary = data.get("dictionary", {})
+        grammar = data.get("grammar", {})
         
         total = 0
+        
+        # Count dictionary entries
         for category in dictionary.values():
             if isinstance(category, dict):
                 total += len(category)
+        
+        # Count grammar entries (pronouns and verbs)
+        for category_name in ["pronouns", "verbs"]:
+            if category_name in grammar and isinstance(grammar[category_name], dict):
+                total += len(grammar[category_name])
         
         return total
     
     def search_word(self, language_code: str, english_word: str) -> Optional[str]:
         """
-        Search for a word translation.
+        Search for a word translation in dictionary and grammar.
         
         Args:
             language_code: The language code
@@ -134,13 +177,20 @@ class LanguageLoader:
         """
         data = self.load_language_data(language_code)
         dictionary = data.get("dictionary", {})
+        grammar = data.get("grammar", {})
         
         english_lower = english_word.lower().strip()
         
-        # Search in all categories
+        # Search in dictionary categories
         for category in dictionary.values():
             if isinstance(category, dict) and english_lower in category:
                 return category[english_lower]
+        
+        # Search in grammar categories (pronouns and verbs)
+        for category_name in ["pronouns", "verbs"]:
+            if category_name in grammar and isinstance(grammar[category_name], dict):
+                if english_lower in grammar[category_name]:
+                    return grammar[category_name][english_lower]
         
         return None
     

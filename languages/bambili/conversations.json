@@ -1,0 +1,199 @@
+{
+  "scenarios": [
+    {
+      "id": "greeting_elder",
+      "title": "🙏 Greeting an Elder",
+      "description": "Learn how to respectfully greet an older person in Bambili culture",
+      "difficulty": "beginner",
+      "dialogue": [
+        {
+          "speaker": "You",
+          "english": "Good morning",
+          "bambili": "abi mwua'ah",
+          "audio_note": "ah-bee mwah-ah"
+        },
+        {
+          "speaker": "Elder",
+          "english": "Good morning, my child",
+          "bambili": "abi mwua'ah, nwanah",
+          "audio_note": "ah-bee mwah-ah, nwah-nah"
+        },
+        {
+          "speaker": "You",
+          "english": "How are you?",
+          "bambili": "ah beh la?",
+          "audio_note": "ah beh lah"
+        },
+        {
+          "speaker": "Elder",
+          "english": "I'm fine, thank you",
+          "bambili": "miya",
+          "audio_note": "mee-yah"
+        }
+      ],
+      "vocabulary": ["greeting", "respect", "elder"],
+      "cultural_note": "When greeting elders in Bambili culture, it's important to show respect. Slight bow or lowering your eyes is appreciated."
+    },
+    {
+      "id": "market_shopping",
+      "title": "🛒 At the Market",
+      "description": "Practice buying food items at a local market",
+      "difficulty": "intermediate",
+      "dialogue": [
+        {
+          "speaker": "You",
+          "english": "Hello, friend",
+          "bambili": "ah beh la, ee swen",
+          "audio_note": "ah beh lah, ee swen"
+        },
+        {
+          "speaker": "Vendor",
+          "english": "Hello! What do you want?",
+          "bambili": "ah beh la! feh o zeh?",
+          "audio_note": "ah beh lah, feh oh zeh"
+        },
+        {
+          "speaker": "You",
+          "english": "I want water",
+          "bambili": "muh zeh ntse",
+          "audio_note": "muh zeh n-tse"
+        },
+        {
+          "speaker": "Vendor",
+          "english": "Here you are",
+          "bambili": "keh",
+          "audio_note": "keh"
+        },
+        {
+          "speaker": "You",
+          "english": "Thank you",
+          "bambili": "miya",
+          "audio_note": "mee-yah"
+        }
+      ],
+      "vocabulary": ["market", "buying", "water", "food"],
+      "cultural_note": "Bargaining is common in markets. Building a friendly relationship with vendors is valued."
+    },
+    {
+      "id": "introducing_yourself",
+      "title": "👋 Introducing Yourself",
+      "description": "Learn how to introduce yourself and ask someone's name",
+      "difficulty": "beginner",
+      "dialogue": [
+        {
+          "speaker": "You",
+          "english": "Hello",
+          "bambili": "ah beh la",
+          "audio_note": "ah beh lah"
+        },
+        {
+          "speaker": "New Friend",
+          "english": "Hello",
+          "bambili": "ah beh la",
+          "audio_note": "ah beh lah"
+        },
+        {
+          "speaker": "You",
+          "english": "What is your name?",
+          "bambili": "wéh ah yi?",
+          "audio_note": "weh ah yee"
+        },
+        {
+          "speaker": "New Friend",
+          "english": "My name is Njoh",
+          "bambili": "muh yi Njoh",
+          "audio_note": "muh yee Njoh"
+        },
+        {
+          "speaker": "You",
+          "english": "Nice to meet you",
+          "bambili": "miya nswe ouh",
+          "audio_note": "mee-yah n-swe ooh"
+        }
+      ],
+      "vocabulary": ["name", "introduction", "friend"],
+      "cultural_note": "Names in Bambili often have meanings. Don't be shy to ask about the meaning of someone's name."
+    },
+    {
+      "id": "asking_directions",
+      "title": "🗺️ Asking for Directions",
+      "description": "Learn how to ask for and understand directions",
+      "difficulty": "intermediate",
+      "dialogue": [
+        {
+          "speaker": "You",
+          "english": "Excuse me",
+          "bambili": "sah muh",
+          "audio_note": "sah muh"
+        },
+        {
+          "speaker": "Local",
+          "english": "Yes?",
+          "bambili": "oh?",
+          "audio_note": "oh"
+        },
+        {
+          "speaker": "You",
+          "english": "Where is the house?",
+          "bambili": "njweh ah yi?",
+          "audio_note": "n-jweh ah yee"
+        },
+        {
+          "speaker": "Local",
+          "english": "Go straight",
+          "bambili": "gyeeh teh teh",
+          "audio_note": "gyeh teh teh"
+        },
+        {
+          "speaker": "You",
+          "english": "Thank you",
+          "bambili": "miya",
+          "audio_note": "mee-yah"
+        }
+      ],
+      "vocabulary": ["directions", "location", "walking"],
+      "cultural_note": "People are generally helpful with directions. Hand gestures and pointing are commonly used."
+    },
+    {
+      "id": "ordering_food",
+      "title": "🍽️ Ordering Food",
+      "description": "Practice ordering traditional Bambili food",
+      "difficulty": "beginner",
+      "dialogue": [
+        {
+          "speaker": "You",
+          "english": "I want food",
+          "bambili": "muh zeh metchwe ijwoum",
+          "audio_note": "muh zeh met-chwe ee-jwoum"
+        },
+        {
+          "speaker": "Server",
+          "english": "What do you want to eat?",
+          "bambili": "feh o zeh chu?",
+          "audio_note": "feh oh zeh chu"
+        },
+        {
+          "speaker": "You",
+          "english": "I want achu",
+          "bambili": "muh zeh aku'u",
+          "audio_note": "muh zeh ah-ku-oo"
+        },
+        {
+          "speaker": "Server",
+          "english": "Do you want water?",
+          "bambili": "o zeh ntse?",
+          "audio_note": "oh zeh n-tse"
+        },
+        {
+          "speaker": "You",
+          "english": "Yes, thank you",
+          "bambili": "oh, miya",
+          "audio_note": "oh, mee-yah"
+        }
+      ],
+      "vocabulary": ["food", "eating", "achu", "water"],
+      "cultural_note": "Achu is a traditional Bambili dish. It's often eaten with hands and shared communally."
+    }
+  ]
+}
+

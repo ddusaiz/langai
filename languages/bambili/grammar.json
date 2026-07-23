@@ -1,4 +1,18 @@
 {
+  "pronouns": {
+    "I": "muh",
+    "you_singular": "ouh",
+    "he_she": "ah",
+    "we": "bier",
+    "you_plural": "gou",
+    "they": "boogou"
+  },
+  "verbs": {
+    "eat": "(t)chu",
+    "drink": "nou",
+    "sleep": "ligi",
+    "walk": "gyeeh"
+  },
   "sentence_structure": {
     "basic_order": "Subject-Verb-Object",
     "description": "Sentences usually follow Subject-Verb-Object ordering.",

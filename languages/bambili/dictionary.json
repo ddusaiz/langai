@@ -1,30 +1,115 @@
-{
+{ 
   "basic_words": {
     "hello": "ah beh la",
     "friend": "ee swen",
     "thank you": "miya",
-    "goodbye": "tbd",
-    "yes": "tbd",
-    "no": "tbd"
-  },
-  "pronouns": {
-    "I": "muh",
-    "you_singular": "ouh",
-    "he_she": "ah",
-    "we": "bier",
-    "you_plural": "tbd",
-    "they": "tbd"
-  },
-  "verbs": {
-    "eat": "tbd",
-    "drink": "tbd",
-    "sleep": "tbd",
-    "walk": "tbd"
+    "goodbye": "bamba go",
+    "yes": "oh",
+    "no": "oh oh"
   },
   "nouns": {
-    "water": "tbd",
-    "food": "tbd",
+    "water": "ntse",
+    "food": "metchwe ijwoum",
     "house": "tbd",
-    "person": "tbd"
+    "person": "tbd",
+    "achu": "aku'u",
+    "leaf": "afu",
+    "door": "àbà",
+    "bone": "akue",
+    "peanut": "baali"
+  },
+  "greetings": {
+    "Good morning": "abi mwua'ah",
+    "How are you?": "ah beh la?"
+  },
+  "common_expressions": {
+    "I don't understand": "mih luh cah zeh"
+  },
+  "polite_expressions": {
+    "Please": "tbd",
+    "Excuse me": "tbd"
+  },
+  "numbers": {
+    "one": "mo'o",
+    "two": "bè'ègè",
+    "three": "ti'e",
+    "four": "nè quà",
+    "five": "torh",
+    "six": "ntu'uh",
+    "seven": "sha'mbà",
+    "eight": "nè-foh",
+    "nine": "nè-bè",
+    "ten": "mè-ghàm"
+  },
+  "colors": {
+    "red": "tbd",
+    "blue": "tbd",
+    "green": "tbd",
+    "yellow": "tbd",
+    "black": "tbd",
+    "white": "tbd"
+  },
+  "body_parts": {
+    "head": "tbd",
+    "hand": "tbd",
+    "foot": "tbd",
+    "eye": "tbd",
+    "ear": "tbd",
+    "mouth": "tbd",
+    "nose": "tbd"
+  },
+  "family": {
+    "mother": "tbd",
+    "father": "tbd",
+    "sister": "tbd",
+    "brother": "tbd",
+    "child": "tbd",
+    "grandfather": "tbd",
+    "grandmother": "tbd"
+  },
+  "time_expressions": {
+    "today": "tbd",
+    "tomorrow": "tbd",
+    "yesterday": "tbd",
+    "morning": "tbd",
+    "evening": "tbd",
+    "night": "tbd"
+  },
+  "common_verbs": {
+    "go": "tbd",
+    "come": "tbd",
+    "see": "tbd",
+    "hear": "tbd",
+    "speak": "tbd",
+    "give": "tbd",
+    "take": "tbd"
+  },
+  "adjectives": {
+    "big": "tbd",
+    "small": "tbd",
+    "good": "tbd",
+    "bad": "tbd",
+    "hot": "tbd",
+    "cold": "tbd",
+    "new": "tbd",
+    "old": "tbd"
+  },
+  "animals": {
+    "dog": "tbd",
+    "cat": "tbd",
+    "chicken": "tbd",
+    "goat": "tbd",
+    "cow": "tbd",
+    "bird": "tbd",
+    "fish": "tbd"
+  },
+  "nature": {
+    "tree": "ateh",
+    "mountain": "tbd",
+    "river": "tbd",
+    "sun": "tbd",
+    "moon": "tbd",
+    "rain": "tbd",
+    "wind": "tbd"
   }
 }

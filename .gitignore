@@ -29,10 +29,19 @@ share/python-wheels/
 *.egg
 MANIFEST
 
-# Environment variables
+# Environment variables and API Keys - IMPORTANT: Never commit these!
 .env
 .env.local
 .env.*.local
+*.env
+
+# API Keys and Secrets
+secrets.json
+config/secrets.yaml
+*.key
+*.pem
+api_keys.txt
+GEMINI_API_KEY.txt
 
 # IDE
 .vscode/

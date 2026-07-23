@@ -1,38 +1,14 @@
 {
-  "greetings": [
-    {
-      "english": "Good morning",
-      "bambili": "abi mwuah",
-      "literal_meaning": "it's day break",
-      "context": "Used in the morning"
-    },
-    {
-      "english": "How are you?",
-      "bambili": "ah beh la?",
-      "literal_meaning": "how is it?",
-      "context": "Common greeting"
-    }
-  ],
-  "common_expressions": [
-    {
-      "english": "I don't understand",
-      "bambili": "tbd",
-      "literal_meaning": "tbd",
-      "context": "When you need clarification"
-    }
-  ],
-  "polite_expressions": [
-    {
-      "english": "Please",
-      "bambili": "tbd",
-      "literal_meaning": "tbd",
-      "context": "Making polite requests"
-    },
-    {
-      "english": "Excuse me",
-      "bambili": "tbd",
-      "literal_meaning": "tbd",
-      "context": "Getting attention politely"
-    }
-  ]
+  "daily_phrases": {
+    "Good morning": "abi mwua'ah",
+    "How are you?": "ah beh la?"
+  },
+  "conversation_starters": {
+  },
+  "common_questions": {
+  },
+  "responses": {
+    "I'm fine": "tbd",
+    "Thank you": "miya"
+  }
 }
